@@ -1,9 +1,7 @@
 .aboutSection {
 	background-color: #fff;
 	border: 20px solid #fff;
-	max-width: 1350px;
 	padding: 0 12%;
-	margin: 0 auto;
 }
 
 .aboutWrapper {
@@ -12,6 +10,8 @@
 	height: auto;
 	justify-content: center;
 	align-items: center;
+	max-width: 1350px;
+	margin: 0 auto;
 }
 
 .aboutHeader {

@@ -1,0 +1,14 @@
+.projectSection {
+	background-color: #e9fcfa;
+	border: 20px solid #fff;
+	padding: 0 12%;
+}
+
+.projectWrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: calc(100vh - 40px);
+	margin: 0 auto;
+	max-width: 1350px;
+}
