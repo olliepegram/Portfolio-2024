@@ -1,0 +1,29 @@
+.aboutSection {
+	background-color: #fff;
+	border: 20px solid #fff;
+	max-width: 1350px;
+	padding: 0 12%;
+	margin: 0 auto;
+}
+
+.aboutWrapper {
+	display: flex;
+	flex-direction: column;
+	height: auto;
+	justify-content: center;
+	align-items: center;
+}
+
+.aboutHeader {
+	text-transform: uppercase;
+	font-weight: 500;
+	color: #4a90e2;
+	text-align: left;
+}
+
+.aboutText {
+	text-align: center;
+	font-size: 22px;
+	color: #51535a;
+	width: 800px;
+}

@@ -1,0 +1,52 @@
+.heroSection {
+	background-color: #f0effd;
+	border: 20px solid #fff;
+	max-width: 1350px;
+	padding: 0 12%;
+	margin: 0 auto;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: calc(100vh - 40px);
+}
+
+.wrapperText h1 {
+	font-size: 48px;
+	line-height: 0.8em;
+	color: #4a90e2;
+	font-weight: 400;
+}
+
+.wrapperText .highlightOllie {
+	font-weight: 500;
+	position: relative;
+	/* background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, #4a90e2 50%); */
+}
+
+.wrapperText .highlightOllie::before {
+	background-color: #4a91e27c;
+	box-shadow: 0 0 5px 5px #4a91e27e;
+	content: '';
+	position: absolute;
+	width: calc(100% + 5px);
+	height: 30%;
+	left: 20px;
+	bottom: 5px;
+}
+
+.wrapperText h3 {
+	color: #5d6170;
+	font-weight: 400;
+}
+
+.wrapperText .blueText {
+	color: #4a90e2;
+}
+
+.wrapperIcon img {
+	width: 225px;
+	height: 225px;
+}
