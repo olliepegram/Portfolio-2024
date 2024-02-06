@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 .aboutSection {
 	background-color: #fff;
 	border: 20px solid #fff;
@@ -9,7 +11,7 @@
 	flex-direction: column;
 	height: auto;
 	justify-content: center;
-	align-items: center;
+	align-items: flex-end;
 	max-width: 1350px;
 	margin: 0 auto;
 }
@@ -17,13 +19,41 @@
 .aboutHeader {
 	text-transform: uppercase;
 	font-weight: 500;
-	color: #4a90e2;
+	color: var(--main-accent);
 	text-align: left;
+	position: relative;
+	font-size: 16px;
+}
+
+.readMe {
+	font-family: 'Space Mono', monospace;
+	font-weight: 400;
+	font-style: normal;
+	color: #36383d;
+	font-size: 14px;
+}
+
+.md {
+	color: var(--main-text);
 }
 
 .aboutText {
-	text-align: center;
-	font-size: 22px;
+	text-align: left;
+	font-size: 18px;
 	color: #51535a;
 	width: 800px;
+}
+
+.aboutText h3 {
+	font-weight: 500;
+	font-size: 26px;
+}
+
+.aboutText hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #51535a4f;
+	margin: 1em 0;
+	padding: 0;
 }
