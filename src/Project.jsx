@@ -13,7 +13,6 @@ const latestWorkData = [
 		tags: ['React', 'HTML', 'CSS'],
 		img: runrampup,
 		second: false,
-		height: '250px',
 	},
 	{
 		title: 'Portfolio',
@@ -23,7 +22,6 @@ const latestWorkData = [
 		tags: ['React', 'HTML', 'CSS'],
 		img: macbook,
 		second: true,
-		height: '250px',
 	},
 ];
 
@@ -36,11 +34,8 @@ function Project() {
 					key={index}
 					className={styles.projectSection}
 				>
-					<div
-						className={`${styles.projectWrapper} ${
-							work.second ? styles.second : ''
-						}`}
-					>
+					<h4 className={styles.latestText}>LATEST WORK</h4>
+					<div className={`${styles.projectWrapper}`}>
 						<div className={styles.projectText}>
 							<h2>{work.title}</h2>
 							{work.tags.map((tag) => (
@@ -55,10 +50,7 @@ function Project() {
 							<button>Read More</button>
 						</div>
 						<div className={styles.projectImg}>
-							<img
-								style={{ height: work.height }}
-								src={work.img}
-							/>
+							<img src={work.img} />
 						</div>
 					</div>
 				</div>

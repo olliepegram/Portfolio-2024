@@ -5,6 +5,13 @@
 	border-radius: 3px;
 }
 
+.latestText {
+	font-size: 14px;
+	margin-top: -20px;
+	padding-bottom: 10px;
+	color: var(--main-text);
+}
+
 .projectWrapper {
 	display: flex;
 	justify-content: center;
@@ -18,11 +25,10 @@
 .projectText {
 	flex-grow: 1;
 	flex-basis: 0;
+	margin-right: 100px;
 }
 
-.second {
-	flex-direction: row-reverse;
-}
+/* flex-direction: row-reverse; */
 
 .projectWrapper h2 {
 	font-size: 36px;
@@ -69,11 +75,23 @@
 .projectImg {
 	flex-grow: 1;
 	flex-basis: 0;
-
-	align-self: flex-start;
+	align-self: center;
 }
 
 .projectWrapper img {
 	width: auto;
 	height: 250px;
+}
+
+@media screen and (max-width: 1036px) {
+	.projectWrapper {
+		flex-direction: column-reverse;
+	}
+
+	.projectText {
+		margin-right: 0;
+	}
+	.projectWrapper img {
+		height: 200px;
+	}
 }
