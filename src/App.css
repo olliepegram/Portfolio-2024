@@ -1,3 +1,9 @@
+:root {
+	--main-accent: #4a90e2;
+	--main-text: #51535a;
+	--main-bg: #f0effd;
+}
+
 body,
 html {
 	margin: 0;
