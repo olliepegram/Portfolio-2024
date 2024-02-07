@@ -13,6 +13,7 @@ const latestWorkData = [
 		tags: ['React', 'HTML', 'CSS'],
 		img: runrampup,
 		second: false,
+		id: crypto.randomUUID(),
 	},
 	{
 		title: 'Portfolio',
@@ -22,6 +23,7 @@ const latestWorkData = [
 		tags: ['React', 'HTML', 'CSS'],
 		img: macbook,
 		second: true,
+		id: crypto.randomUUID(),
 	},
 ];
 
@@ -38,10 +40,10 @@ function Project() {
 					<div className={`${styles.projectWrapper}`}>
 						<div className={styles.projectText}>
 							<h2>{work.title}</h2>
-							{work.tags.map((tag) => (
+							{work.tags.map((tag, i) => (
 								<div
 									className={styles.tags}
-									key={index}
+									key={i}
 								>
 									<span>{tag}</span>
 								</div>

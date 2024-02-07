@@ -6,9 +6,13 @@ function HomepageHeader() {
 		<section className={styles.heroSection}>
 			<div className={styles.wrapper}>
 				<div className={styles.wrapperText}>
-					<h1>Hello, my</h1>
-					<h1>
+					<h1 className={styles.longHeader}>Hello, my ‎</h1>
+					<h1 className={styles.longHeader}>
 						name is <span className={styles.highlightOllie}>Ollie.</span>
+					</h1>
+					<h1 className={styles.smallHeader}>
+						Hello, my name is{' '}
+						<span className={styles.highlightOllie}>Ollie.</span>
 					</h1>
 					<h3>
 						<span className={styles.blueText}>Designing</span> and{' '}

@@ -14,6 +14,10 @@
 	margin: 0 auto;
 }
 
+.smallHeader {
+	display: none;
+}
+
 .wrapperText h1 {
 	font-size: 48px;
 	line-height: 0.5em;
@@ -51,4 +55,54 @@
 .wrapperIcon img {
 	width: 225px;
 	height: 225px;
+}
+
+@media screen and (max-width: 1036px) {
+	.wrapperText h1 {
+		font-size: 38px;
+	}
+
+	.wrapperText h3 {
+		font-size: 16px;
+	}
+
+	.wrapperIcon img {
+		width: 180px;
+		height: 180px;
+	}
+}
+
+@media screen and (max-width: 855px) {
+	.wrapper {
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+	}
+
+	.wrapper .longHeader {
+		display: inline-block;
+	}
+
+	.wrapper .smallHeader {
+	}
+
+	.wrapperIcon {
+		padding-top: 3em;
+	}
+}
+
+@media screen and (max-width: 612px) {
+	.heroSection {
+		padding: 0 12%;
+	}
+	.wrapper {
+		width: auto;
+	}
+	.wrapper h1 {
+		font-size: 28px;
+		line-height: 0em;
+	}
+	.wrapperText .highlightOllie::before {
+		width: calc(100% - 10px);
+	}
 }
