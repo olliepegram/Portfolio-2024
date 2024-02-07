@@ -24,6 +24,9 @@ function HomepageHeader() {
 					<img src={icon} />
 				</div>
 			</div>
+			<div className={styles.outerArrow}>
+				<div className={styles.arrow}></div>
+			</div>
 		</section>
 	);
 }

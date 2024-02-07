@@ -57,6 +57,55 @@
 	height: 225px;
 }
 
+.outerArrow {
+	display: flex;
+	justify-content: center;
+}
+
+.arrow {
+	height: 40px;
+	position: absolute;
+	bottom: 50px;
+	animation: scroll 1.5s infinite;
+	-webkit-animation: scroll 1.5s infinite;
+	&::after {
+		content: '';
+		display: block;
+		position: absolute;
+		left: -5px;
+		width: 1px;
+
+		border-top: 20px solid var(--main-text);
+		border-left: 10px solid transparent;
+		border-right: 10px solid transparent;
+		border-radius: 3px;
+	}
+}
+
+@keyframes scroll {
+	0% {
+		height: 40px;
+	}
+	30% {
+		height: 50px;
+	}
+	60% {
+		height: 40px;
+	}
+}
+
+@-webkit-keyframes scroll {
+	0% {
+		height: 40px;
+	}
+	30% {
+		height: 50px;
+	}
+	60% {
+		height: 40px;
+	}
+}
+
 @media screen and (max-width: 1036px) {
 	.wrapperText h1 {
 		font-size: 38px;
