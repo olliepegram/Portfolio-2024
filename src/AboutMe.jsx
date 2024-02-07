@@ -26,8 +26,9 @@ function AboutMe() {
 					</p>
 					<div className={styles.socials}>
 						<a
-							href='www.linkedin.com/in/oliver-pegram-a38635123/'
+							href='https://www.linkedin.com/in/oliver-pegram-a38635123/'
 							target='_blank'
+							rel='noopener noreferrer'
 						>
 							<svg
 								viewBox='0 0 1024 1024'
@@ -38,8 +39,9 @@ function AboutMe() {
 							</svg>
 						</a>
 						<a
-							href='www.github.com/olliepegram'
+							href='https://www.github.com/olliepegram'
 							target='_blank'
+							rel='noopener noreferrer'
 						>
 							<svg
 								viewBox='0 0 1024 1024'
@@ -50,8 +52,9 @@ function AboutMe() {
 							</svg>
 						</a>
 						<a
-							href='www.twitter.com/olliepegram'
+							href='https://www.twitter.com/olliepegram'
 							target='_blank'
+							rel='noopener noreferrer'
 						>
 							<svg
 								viewBox='0 0 1024 1024'
@@ -62,8 +65,9 @@ function AboutMe() {
 							</svg>
 						</a>
 						<a
-							href='www.instagram.com/olliepegram/'
+							href='https://www.instagram.com/olliepegram/'
 							target='_blank'
+							rel='noopener noreferrer'
 						>
 							<svg
 								viewBox='0 0 1024 1024'
