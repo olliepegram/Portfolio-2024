@@ -8,6 +8,7 @@ const latestWorkData = [
 		body: `My biggest project to date, and something I’m proud of.
 
         Run Ramp Up will build you a running program based on your heart rate zones, allowing you to train efficiently and develop a big aerobic base. `,
+		url: 'https://runrampup.com/',
 		github: 'https://github.com/olliepegram/RunRampUp',
 		bgColor: '#E6F1FC',
 		tags: ['React', 'HTML', 'CSS'],
@@ -18,6 +19,7 @@ const latestWorkData = [
 	{
 		title: 'Portfolio',
 		body: `The site you're on! Spent more time designing this than I did coding it and was a lot of fun to create.`,
+		url: 'https://olliepegram.com/',
 		github: 'https://github.com/olliepegram/Portfolio-2024',
 		bgColor: '#FDF1F1',
 		tags: ['React', 'HTML', 'CSS'],
@@ -49,7 +51,21 @@ function Project() {
 								</div>
 							))}
 							<p>{work.body}</p>
-							<button>Read More</button>
+							<a
+								href={work.github}
+								target='_blank'
+								rel='noopener noreferrer'
+							>
+								<button>See More</button>
+							</a>
+							<a
+								href={work.url}
+								target='_blank'
+								rel='noopener noreferrer'
+								className={styles.liveLink}
+							>
+								<span>Live Link</span>
+							</a>
 						</div>
 						<div className={styles.projectImg}>
 							<img src={work.img} />

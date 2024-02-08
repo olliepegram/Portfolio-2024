@@ -71,6 +71,11 @@
 	box-shadow: 0px 0px 0 transparent;
 }
 
+.liveLink {
+	color: var(--main-text);
+	margin-left: 30px;
+}
+
 .projectImg {
 	align-self: center;
 	margin-left: 100px;
