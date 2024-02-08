@@ -132,9 +132,6 @@
 		display: inline-block;
 	}
 
-	.wrapper .smallHeader {
-	}
-
 	.wrapperIcon {
 		padding-top: 3em;
 	}
@@ -153,5 +150,16 @@
 	}
 	.wrapperText .highlightOllie::before {
 		width: calc(100% - 10px);
+	}
+
+	.wrapperIcon img {
+		width: 140px;
+		height: 140px;
+	}
+}
+
+@media screen and (max-height: 540px) {
+	.outerArrow {
+		display: none;
 	}
 }
