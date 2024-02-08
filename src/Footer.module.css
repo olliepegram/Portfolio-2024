@@ -22,6 +22,7 @@ footer {
 	color: var(--main-accent);
 	padding: 0;
 	margin: 0;
+	text-align: center;
 }
 
 .footerWrapper h4 {
@@ -37,7 +38,8 @@ footer {
 .footerSocials .svg {
 	width: 30px;
 	height: 30px;
-	padding-right: 30px;
+	padding-right: 20px;
+	padding-left: 20px;
 
 	color: var(--main-text);
 	transition: all 0.2s ease-in-out;
@@ -69,6 +71,16 @@ footer {
 	resize: none;
 }
 
+.formGroup .messageArea:focus {
+	outline: none;
+	border: 2px solid var(--main-accent);
+}
+
+.formGroup input:focus {
+	outline: none;
+	border: 2px solid var(--main-accent);
+}
+
 .formGroup input::placeholder {
 	color: #51535ac6;
 	font-size: 14px;
@@ -91,7 +103,7 @@ footer {
 	box-shadow: 0px 0px 0 transparent;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1080px) {
 	.footerWrapper {
 		flex-direction: column;
 		justify-content: center;
