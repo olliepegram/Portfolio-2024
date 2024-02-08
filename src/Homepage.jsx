@@ -2,6 +2,7 @@ import HomepageHeader from './HomepageHeader';
 import styles from './Homepage.module.css';
 import AboutMe from './AboutMe';
 import Project from './Project';
+import Footer from './Footer';
 
 function Homepage() {
 	return (
@@ -9,6 +10,7 @@ function Homepage() {
 			<HomepageHeader />
 			<AboutMe />
 			<Project />
+			<Footer />
 		</div>
 	);
 }
