@@ -15,6 +15,7 @@ footer {
 	height: auto;
 	max-width: 1350px;
 	flex-wrap: wrap;
+	margin: 0 auto;
 }
 
 .footerWrapper h3 {
@@ -116,11 +117,14 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+	footer {
+		padding: 4em 5%;
+	}
 	.formGroup input {
-		width: 200px;
+		width: 220px;
 	}
 
 	.formGroup .messageArea {
-		width: 200px;
+		width: 220px;
 	}
 }
