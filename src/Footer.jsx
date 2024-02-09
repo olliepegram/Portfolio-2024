@@ -8,7 +8,7 @@ function Footer() {
 	const messageRef = useRef();
 	const [loading, setLoading] = useState(false);
 
-	useEffect(() => emailjs.init('1076ugke_rc3Ts1dS'), []);
+	useEffect(() => emailjs.init(import.meta.env.VITE_EMAIL_USER_ID), []);
 
 	const handleSubmit = async (e) => {
 		e.preventDefault();
@@ -17,8 +17,8 @@ function Footer() {
 			recipient: emailRef.current.value,
 			message: messageRef.current.value,
 		});
-		const serviceId = 'service_u81xs1n';
-		const templateId = 'template_dg706ytd';
+		const serviceId = import.meta.env.VITE_EMAIL_SERVICE_ID;
+		const templateId = import.meta.env.VITE_EMAIL_TEMPLATE_ID;
 		try {
 			setLoading(true);
 			await emailjs.send(serviceId, templateId, {

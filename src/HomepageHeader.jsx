@@ -1,4 +1,4 @@
-// import { useState } from 'react';
+import { useState } from 'react';
 import styles from './HomepageHeader.module.css';
 import icon from './assets/icon.png';
 
