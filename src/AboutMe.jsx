@@ -22,7 +22,7 @@ function AboutMe() {
 					</p>
 					<p>
 						Beyond the screen, you'll find me pounding the pavement in a run,
-						exploring my creative side, or immersed in a good book.
+						doing some bicep curls, or immersed in a good book.
 					</p>
 					<div className={styles.socials}>
 						<a

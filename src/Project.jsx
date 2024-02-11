@@ -5,9 +5,7 @@ import runrampup from './assets/runrampup.png';
 const latestWorkData = [
 	{
 		title: 'Run Ramp Up',
-		body: `My biggest project to date, and something I’m proud of.
-
-        Run Ramp Up will build you a running program based on your heart rate zones, allowing you to train efficiently and develop a big aerobic base. `,
+		body: `A large ReactJS project, Run Ramp Up will build you a running program based on your heart rate zones, allowing you to train efficiently and develop a big aerobic base. `,
 		url: 'https://runrampup.com/',
 		github: 'https://github.com/olliepegram/RunRampUp',
 		bgColor: '#E6F1FC',

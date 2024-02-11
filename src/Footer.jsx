@@ -38,6 +38,7 @@ function Footer() {
 			<div className={styles.footerWrapper}>
 				<div>
 					<h3>Connect with me</h3>
+					<p>Send me a message or reach out to me on social media!</p>
 					<div className={styles.footerSocials}>
 						<a
 							href='https://www.linkedin.com/in/oliver-pegram-a38635123/'

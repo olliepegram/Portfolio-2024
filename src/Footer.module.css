@@ -22,8 +22,16 @@ footer {
 	font-size: 28px;
 	color: var(--main-accent);
 	padding: 0;
-	margin: 0;
-	text-align: center;
+	margin: 0 0 10px 20px;
+	text-align: left;
+}
+
+.footerWrapper p {
+	color: var(--main-text);
+	text-align: left;
+	max-width: 250px;
+	padding: 0;
+	margin: 0 0 0 20px;
 }
 
 .footerWrapper h4 {
@@ -70,6 +78,8 @@ footer {
 	padding: 10px;
 	height: 150px;
 	resize: none;
+	color: var(--main-text);
+	font-family: 'Noto Sans', sans-serif;
 }
 
 .formGroup .messageArea:focus {
@@ -109,6 +119,18 @@ footer {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+	}
+
+	.footerWrapper h3 {
+		text-align: center;
+		margin: 0 0 15px 0;
+	}
+
+	.footerWrapper p {
+		text-align: center;
+		margin: 0;
+
+		margin: 0 auto;
 	}
 
 	.footerSocials {
